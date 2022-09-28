@@ -29,7 +29,8 @@ export default {
         height: 100px;
     }
     .todo-list {
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        vertical-align: top;
+        padding: .5em;
     }
 </style>
